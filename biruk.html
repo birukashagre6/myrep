@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="biruk.css">
+    <script src="https://kit.fontawesome.com/09b521b2fe.js" crossorigin="anonymous"></script>
+ 
+  </head>
+<body>
+       <!--
+        NAME = BIRUK ASHAGRE BIRHANE
+        ID.NO = DBU1401048
+        -->
+  
+    <div id="header">
+      <div class="container">
+        <nav>
+          <a href="#index.html" class="logo">Portfolio. <br>Id.No= 1401048</a> 
+         <ul id="sidemenu">
+          <li><a href="#header" class="active"><h3>Home</h3></a></li>
+          <li><a href="#about"><h3>About</h3></a></li>
+          <li><a href="#skills"><h3>Skill</h3></a></li>
+          <li><a href="#contact"><h3>Contact</h3></a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+         </ul> 
+         <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+       
+          <h1>Hi I'm <span> Biruk Ashagre</span>  <br> From  Ethiopia</h1>
+          <p> And I am a <span class="text1"></span></p>
+
+        </div>
+        
+      </div>  
+    </div>
+    <!-------about---------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="b.JPG" alt="" height="400px">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>Hi, My name is Biruk Ashagre Birhane from Harar <br> And I am A Software Engineering Student at Debre birhan University <br>And I am A web developer </p> <br>
+          <div class="tab-titels">
+           <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+           <p class="tab-links" onclick="opentab('Exprience')">Exprience</p>
+           <p class="tab-links" onclick="opentab('Education')">Education</p>
+           
+          </div>
+          <div>
+            <div class="tab-contents  active-tab" id="Skills">
+              <ul>
+            <li><span>I have some skills<br>like Web app development</span></li>
+            <li><span>Designing and Developing websites</span></li>
+
+              </ul>
+            </div>
+            <div class="tab-contents" id="Exprience">
+              <ul>
+            <li><span>I have no experience</span></li>
+            <li><span>but,I am A Software Engineering Student </span></li>
+            <li><span>so,I do pilot projects</span></li>
+            </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+           
+            <li><span>I am a 3rd year Software Engineering student</span></li>
+            <li><span>at Debre birhan Unversity in Ethiopia</span></li>
+            <li><span>I took many courses like<br>Web Design and Programming,C++ Programming, <br>Object Oriented Programming and so on </span></li>
+          
+              </ul>
+            </div>
+
+              </ul>
+            </div>
+            
+          </div>
+          </div> 
+        </div>
+      </div>
+ 
+<!--------------My skill--------------->
+
+<section id="skills" class="skills">
+<h1>My Skill</h1><br><br>
+  <div class="skill-main">
+  <div class="skill-left">
+<h3>My Technical Skills</h3>
+<div class="skill-bar">
+  <div class="info">
+    <p>HTML</p>
+    <p>90%</p> 
+  </div>
+  <div class="bar">
+    <span class="html">html</span>
+  </div>
+</div>
+
+
+<div class="skill-bar">
+  <div class="info">
+    <p>CSS</p>
+    <p>88%</p> 
+  </div>
+  <div class="bar">
+    <span class="css">css</span>
+  </div>
+</div>
+
+<div class="skill-bar">
+  <div class="info">
+    <p>Java Script</p>
+    <p>75%</p> 
+  </div>
+  <div class="bar">
+    <span class="js">js</span>
+  </div>
+</div>
+
+<div class="skill-bar">
+  <div class="info">
+    <p>PHP</p>
+    <p>60%</p> 
+  </div>
+  <div class="bar">
+    <span class="php">php</span>
+  </div>
+</div>
+
+<div class="skill-bar">
+  <div class="info">
+    <p>C++</p>
+    <p>92%</p> 
+  </div>
+  <div class="bar">
+    <span class="c">c++</span>
+  </div>
+  
+</div>
+<div class="skill-bar">
+  <div class="info">
+    <p>JAVA</p>
+    <p>80%</p> 
+  </div>
+  <div class="bar">
+    <span class="java">java</span>
+  </div>
+  
+</div>
+
+
+
+  </div>
+  
+  
+</div>
+</section>
+<!-------------Contact--------------->
+<div id="contact">
+<div class="container">
+  <div class="row">
+    <div class="cont-left">
+      <h1 class="sub-title">Contact Me</h1>
+      <p><i class="fab fa-google"></i> mandave693@gmail.com</p>
+      <p><i class="fa-solid fa-phone"></i> +251933108519</p>
+      <div class="social-icon">
+        <a href="https://www.facebook.com/biruk.man.758399"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://t.me/Biruk_y19"><i class="fa-solid fa-paper-plane"></i></a>
+      </div>
+      <a href="MY CV.docx" class="btn btn2" >Download CV</a>
+    </div>
+    <div class="cont-Right">
+<form>
+  <input type="text" name="Name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+  <button type="submit" class="btn btn2" alert="successfully submitted">Submit</button>
+</form>
+
+    </div>
+  </div>
+</div>
+<div class="copyright">
+  <p>copyright © Biruk. all rights are reserved </p>
+</div>
+</div>
+    <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");    
+  function opentab(tabname){
+  
+   for(tablink of tablinks){
+    tablink.classList.remove("active-link");
+   }
+   for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab"); 
+   }
+event.currentTarget.classList.add("active-link");
+document.getElementById(tabname).classList.add("active-tab");
+  }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu(){
+        sidemenu.style.right="0";
+      }
+      function closemenu(){
+        sidemenu.style.right="-200px";
+      }
+   
+    </script>
+       <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+         var typed = new Typed('.text1',{
+        strings : ['Software Engineer','Web developer'],
+       
+        typingSpeed:1000,
+        backSpeed:150,
+        backDelay:1000,
+        loop:true
+        
+      });
+
+    </script>
+</body>
+</html>
+
+
